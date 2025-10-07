@@ -1,0 +1,287 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\david\\testKPMG\\testKPMG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\migrations\\20251007211709_firstmig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\migrations\\20251007211709_firstmig.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\migrations\\20251007211709_firstmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\migrations\\20251007211709_firstmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\appdbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\services\\produtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\services\\produtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\auxtools\\reponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\auxtools\\reponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\auxtools\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\auxtools\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\dtos\\products\\postproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\dtos\\products\\postproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|d:\\david\\testkpmg\\testkpmg\\testkpmg\\dtos\\products\\getlistproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF2B524-D71E-4401-99DC-4F234D4B2AC9}|testKPMG\\testKPMG.csproj|solutionrelative:testkpmg\\dtos\\products\\getlistproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 229,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Migrations\\AppDbContextModelSnapshot.cs*",
+              "RelativeToolTip": "testKPMG\\Migrations\\AppDbContextModelSnapshot.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T21:32:10.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20251007211709_FirstMig.Designer.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Migrations\\20251007211709_FirstMig.Designer.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Migrations\\20251007211709_FirstMig.Designer.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Migrations\\20251007211709_FirstMig.Designer.cs",
+              "RelativeToolTip": "testKPMG\\Migrations\\20251007211709_FirstMig.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T21:31:23.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251007211709_FirstMig.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Migrations\\20251007211709_FirstMig.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Migrations\\20251007211709_FirstMig.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Migrations\\20251007211709_FirstMig.cs",
+              "RelativeToolTip": "testKPMG\\Migrations\\20251007211709_FirstMig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T21:17:09.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "testKPMG\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:18:46.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Entities\\Product.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Entities\\Product.cs",
+              "RelativeToolTip": "testKPMG\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:11:38.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProdutService.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Services\\ProdutService.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Services\\ProdutService.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Services\\ProdutService.cs",
+              "RelativeToolTip": "testKPMG\\Services\\ProdutService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:18:06.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reponses.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\AuxTools\\Reponses.cs",
+              "RelativeDocumentMoniker": "testKPMG\\AuxTools\\Reponses.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\AuxTools\\Reponses.cs",
+              "RelativeToolTip": "testKPMG\\AuxTools\\Reponses.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T21:08:25.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Program.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Program.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Program.cs",
+              "RelativeToolTip": "testKPMG\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:15:40.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\appsettings.json",
+              "RelativeDocumentMoniker": "testKPMG\\appsettings.json",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\appsettings.json",
+              "RelativeToolTip": "testKPMG\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T20:10:49.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Controllers\\Product\\ProductController.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Controllers\\Product\\ProductController.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Controllers\\Product\\ProductController.cs",
+              "RelativeToolTip": "testKPMG\\Controllers\\Product\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:52:40.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "testKPMG\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "testKPMG\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T21:09:21.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\AuxTools\\models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "testKPMG\\AuxTools\\models\\ApiResponse.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\AuxTools\\models\\ApiResponse.cs",
+              "RelativeToolTip": "testKPMG\\AuxTools\\models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T21:10:36.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\AppDbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "testKPMG\\AppDbContext\\AppDbContext.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\AppDbContext\\AppDbContext.cs",
+              "RelativeToolTip": "testKPMG\\AppDbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:10:27.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PostProductDTO.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\DTOs\\Products\\PostProductDTO.cs",
+              "RelativeDocumentMoniker": "testKPMG\\DTOs\\Products\\PostProductDTO.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\DTOs\\Products\\PostProductDTO.cs",
+              "RelativeToolTip": "testKPMG\\DTOs\\Products\\PostProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:34:39.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetListProductsDTO.cs",
+              "DocumentMoniker": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\DTOs\\Products\\GetListProductsDTO.cs",
+              "RelativeDocumentMoniker": "testKPMG\\DTOs\\Products\\GetListProductsDTO.cs",
+              "ToolTip": "D:\\david\\testKPMG\\testKPMG\\testKPMG\\DTOs\\Products\\GetListProductsDTO.cs",
+              "RelativeToolTip": "testKPMG\\DTOs\\Products\\GetListProductsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:21:38.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
