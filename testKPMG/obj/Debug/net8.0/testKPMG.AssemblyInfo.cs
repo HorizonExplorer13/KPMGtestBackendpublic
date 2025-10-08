@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testKPMG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ce3ab70e3709d216afc29e5ec79249bab94fa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("testKPMG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testKPMG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

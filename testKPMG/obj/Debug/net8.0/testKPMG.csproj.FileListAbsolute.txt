@@ -144,3 +144,4 @@ D:\david\testKPMG\testKPMG\testKPMG\obj\Debug\net8.0\refint\testKPMG.dll
 D:\david\testKPMG\testKPMG\testKPMG\obj\Debug\net8.0\testKPMG.pdb
 D:\david\testKPMG\testKPMG\testKPMG\obj\Debug\net8.0\testKPMG.genruntimeconfig.cache
 D:\david\testKPMG\testKPMG\testKPMG\obj\Debug\net8.0\ref\testKPMG.dll
+D:\david\testKPMG\testKPMG\testKPMG\obj\Debug\net8.0\testKPMG.sourcelink.json

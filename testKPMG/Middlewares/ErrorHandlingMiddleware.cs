@@ -6,12 +6,12 @@ namespace testKPMG.Middlewares
 {
     public class ErrorHandlingMiddleware
     {
-        private readonly IHttpContextAccessor _context;
+        //private readonly HttpContext _context;
         private readonly RequestDelegate _next;
 
-        public ErrorHandlingMiddleware(IHttpContextAccessor context, RequestDelegate next)
+        public ErrorHandlingMiddleware(/*HttpContext context,*/ RequestDelegate next)
         {
-            _context = context;
+            //_context = context;
             _next = next;
         }
 
