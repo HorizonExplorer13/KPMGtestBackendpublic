@@ -21,6 +21,10 @@ namespace testKPMG.Middlewares
             {
                 await _next(context);
             }
+            catch (NotFoundException ex)
+            {
+                await HandleError(context, ex.Message, StatusCodes.Status404NotFound);
+            }
             catch (ForbiddenException ex)
             {
                 await HandleError(context, ex.Message, StatusCodes.Status403Forbidden);
