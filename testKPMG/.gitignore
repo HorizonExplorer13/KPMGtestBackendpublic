@@ -1,0 +1,78 @@
+﻿#
+# Archivo .gitignore de .NET Core / ASP.NET Core
+#
+
+## DIRECTORIOS DE COMPILACIÓN E INSTALACIÓN ##
+##############################################
+
+# Binarios de compilación
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+**/[Dd]ebug/
+**/[Rr]elease/
+
+# Paquetes y dependencias de NuGet
+.nuget/
+# Carpeta de paquetes global de NuGet (generalmente fuera del repositorio)
+# Para evitar problemas de rutas si se añade a veces:
+# packages/
+
+# Archivos de caché de compilación de Roslyn (opcional pero recomendado)
+.vs/
+.vs/bin/
+
+## VISUAL STUDIO Y HERRAMIENTAS ##
+##################################
+
+# Archivos de usuario local y caché
+*.suo
+*.user
+*.useros
+*.log
+*.pdb
+*.ide*
+*.opendb
+*.bak
+
+# Archivos de configuración de VS Code (opcional si no quieres compartirlos)
+# .vscode/
+
+# Archivos de configuración de Visual Studio
+[Pp]roject.json.lock
+
+# Archivos generados por Visual Studio/IIS Express
+*.vssscc
+*.vspscc
+*.vshost.*
+*.testsettings
+*.trx
+*.publish.xml
+
+## CONFIGURACIÓN DE PRUEBAS Y PROFILING ##
+##########################################
+TestResults/
+*.coverage
+*.vsix
+_ReSharper.*/
+[Pp]rofile[Rr]eports/
+
+## ARTEFACTOS DE PUBLICACIÓN Y DESPLIEGUE ##
+############################################
+
+# Directorios de publicación
+[Pp]ublish/
+[Ww]eb[Cc]onfig.[*].config
+[Pp]arameters.xml
+Service Fabric/
+app_pack/
+
+## ARCHIVOS DE CONFIGURACIÓN DE ENTORNO##
+.env
+
+
+# Docker build artifacts
+# Evita incluir artefactos de build de Docker locales si se generan en la raíz
+# **/.dockerignore
+# **/.docker/

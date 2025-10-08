@@ -1,4 +1,4 @@
-@testKPMG_HostAddress = http://localhost:5236
+@testKPMG_HostAddress = http://localhost:8081
 
 GET {{testKPMG_HostAddress}}/weatherforecast/
 Accept: application/json

@@ -11,12 +11,12 @@ EXPOSE 8081
 # Esta fase se usa para compilar el proyecto de servicio
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["testKPMG/testKPMG.csproj", "testKPMG/"]
-RUN dotnet restore "./testKPMG/testKPMG.csproj"
+WORKDIR /src/testKPMG
+COPY testKPMG.csproj .
+RUN dotnet restore 
 COPY . .
 WORKDIR "/src/testKPMG"
-RUN dotnet build "./testKPMG.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase se usa para publicar el proyecto de servicio que se copiará en la fase final.
 FROM build AS publish
