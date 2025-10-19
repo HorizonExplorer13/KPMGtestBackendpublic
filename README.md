@@ -10,5 +10,5 @@ Here is a basic solution of the test, the basic porpouse is give the whole crud 
 
 ## NOTE:
 - Here you will find the other two Repos, ones to the front-end, and other that contains a dockerfile to create the DB instance, and a dockercompose, whitch its recommended to use to deploy whole projects ones you have on your local.
-- React Front proyect: 
+- React Front proyect: https://github.com/HorizonExplorer13/testKPMGFront .
 - DB Instance and DockerCompose: https://github.com/HorizonExplorer13/testKPMGDCompose .
