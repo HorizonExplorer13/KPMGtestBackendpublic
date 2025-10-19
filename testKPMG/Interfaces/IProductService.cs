@@ -1,4 +1,5 @@
-﻿using testKPMG.DTOs.Products;
+﻿using testKPMG.AuxTools.models;
+using testKPMG.DTOs.Products;
 
 namespace testKPMG.Interfaces
 {
@@ -9,5 +10,6 @@ namespace testKPMG.Interfaces
         Task<List<GetListProductsDTO>> GetProductsList();
         Task<GetListProductsDTO> GetProductById(Guid Id);
         Task UpdateProduct(Guid Id, PostProductDTO updateProduct);
+        Task<MassiveProductResponse> CreateMassiveProducts(List<PostProductDTO> postProductDTOs);
     }
 }

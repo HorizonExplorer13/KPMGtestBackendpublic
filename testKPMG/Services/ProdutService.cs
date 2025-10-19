@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks.Dataflow;
 using testKPMG.AppDbContext;
 using testKPMG.AuxTools;
+using testKPMG.AuxTools.models;
 using testKPMG.DTOs.Products;
 using testKPMG.Entities;
 using testKPMG.Interfaces;
-
+using ManagerResult = (testKPMG.DTOs.Products.PostProductDTO item, bool isAllow);
 namespace testKPMG.Services
 {
     public class ProdutService : IProductService
@@ -42,7 +44,7 @@ namespace testKPMG.Services
             var response = await dbContext.products.Select(obj => new GetListProductsDTO
             {
                 Id = obj.Id,
-                Name= obj.Name,
+                Name = obj.Name,
                 Price = obj.Price,
                 Stock = obj.Stock,
             }).FirstOrDefaultAsync(p => p.Id == Id);
@@ -67,6 +69,110 @@ namespace testKPMG.Services
             var result = await dbContext.SaveChangesAsync();
             if (result == 0)
                 throw new InternalServerException("internal server error");
+        }
+
+        public async Task<MassiveProductResponse> CreateMassiveProducts(List<PostProductDTO> postProductDTOs)
+        {
+            List<PostProductDTO> listInsert = new List<PostProductDTO>();
+            List<PostProductDTO> unAllowrecords = new List<PostProductDTO>();
+            #region dataflow pattern
+            // ActionBlocks for a productor/customer dataFlow concurrency pattern
+            
+            var unAllowBlock = new ActionBlock<ManagerResult>(
+                        item => { unAllowrecords.Add(item.item); }
+                        );
+            var allowBlock = new ActionBlock<ManagerResult>(
+                        item => { listInsert.Add(item.item); }
+                        );
+
+            var managerBlock = new TransformBlock<PostProductDTO, (PostProductDTO item, bool isAllow)>(
+                async item =>
+                {
+                    var existedProduct = await dbContext.products.FirstOrDefaultAsync(p => p.Name == item.Name);
+                    if (existedProduct != null)
+                    {
+                        bool isAllow = false;
+                        return (item, isAllow);
+                    }
+                    else
+                    {
+                        bool isAllow = true;
+                        return (item, isAllow);
+                    }
+
+                },
+                    new ExecutionDataflowBlockOptions { MaxDegreeOfParallelism = DataflowBlockOptions.Unbounded }
+                );
+
+            managerBlock.LinkTo(allowBlock, tuple => tuple.isAllow);
+            managerBlock.LinkTo(allowBlock, tuple => tuple.isAllow);
+            #endregion
+            List<Product> records = new List<Product>();
+            foreach (var item in listInsert)
+            {
+                var record = new Product
+                {
+                    Name = item.Name,
+                    Price = item.Price,
+                    Stock = item.Stock,
+                };
+                records.Add(record);
+            }
+            dbContext.products.AddRange(records);
+            var result = await dbContext.SaveChangesAsync();
+            if (result == 0)
+                throw new InternalServerException("internal server error");
+            string message = "";
+            if (unAllowrecords.Count == 0)
+                unAllowrecords = null;
+
+            return new MassiveProductResponse
+            {
+                unAllowrecords = unAllowrecords,
+                Message = message = "These records already existed"
+            };
+
+
+            // Sequential logic to departure between those records that already existed on the db table.
+            #region Sequetial listcreate
+            ////foreach (var postProduct in postProductDTOs)
+            ////{
+            ////    var existedProduct = await dbContext.products.FirstOrDefaultAsync(p => p.Name == postProduct.Name);
+            ////    if (existedProduct != null)
+            ////    {
+            ////        unAllowrecords.Add(postProduct);
+            ////    }
+            ////    else
+            ////    {
+            ////        listInsert.Add(postProduct);
+            ////    }
+            ////}
+            ////List<Product> records = new List<Product>();
+            ////foreach (var product in listInsert)
+            ////{
+            ////    var record = new Product
+            ////    {
+            ////        Name = product.Name,
+            ////        Price = product.Price,
+            ////        Stock = product.Stock,
+            ////    };
+            ////    records.Add(record);
+            ////}
+            ////dbContext.products.AddRange(records);
+            ////var result = await dbContext.SaveChangesAsync();
+            ////if (result == 0)
+            ////    throw new InternalServerException("internal server error");
+            ////string message = "";
+            ////if (unAllowrecords.Count == 0)
+            ////    unAllowrecords = null;
+
+            ////return new
+            ////{
+            ////    unAllowrecords = unAllowrecords,
+            ////    Message = message = "These rrecord already"
+            ////};
+            #endregion
+            //
         }
 
         public async Task UpdateProduct(Guid Id, PostProductDTO updateProduct)

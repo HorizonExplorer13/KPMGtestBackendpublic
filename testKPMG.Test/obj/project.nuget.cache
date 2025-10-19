@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "dgSpecHash": "9SweB8pbww4=",
+  "success": false,
+  "projectFilePath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'NUnit.Analyzers (>= 3.9.0)' para 'net8.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: C:\\Program Files\\dotnet\\library-packs, LiteTHKFeed, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "projectPath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "filePath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "libraryId": "NUnit.Analyzers",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'Microsoft.NET.Test.Sdk (>= 17.8.0)' para 'net8.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: C:\\Program Files\\dotnet\\library-packs, LiteTHKFeed, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "projectPath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "filePath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'NUnit (>= 3.14.0)' para 'net8.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: C:\\Program Files\\dotnet\\library-packs, LiteTHKFeed, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "projectPath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "filePath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'coverlet.collector (>= 6.0.0)' para 'net8.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: C:\\Program Files\\dotnet\\library-packs, LiteTHKFeed, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "projectPath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "filePath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'NUnit3TestAdapter (>= 4.5.0)' para 'net8.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: C:\\Program Files\\dotnet\\library-packs, LiteTHKFeed, Microsoft Visual Studio Offline Packages, nuget.org.",
+      "projectPath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "filePath": "D:\\david\\testKPMG\\testKPMG\\testKPMG.Test\\testKPMG.Test.csproj",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

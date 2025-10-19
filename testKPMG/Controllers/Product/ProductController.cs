@@ -35,6 +35,13 @@ namespace testKPMG.Controllers.Product
             await service.CreateProduct(postProduct);
             return Ok();
         }
+        [HttpPost]
+        [Route("CreateMasive")]
+        public async Task<IActionResult> CreateMasive([FromBody] List<PostProductDTO> postProducts)
+        {
+            var result = await service.CreateMassiveProducts(postProducts);
+            return Ok(result);
+        }
         [HttpPut]
         [Route("Update/{Id}")]
         public async Task<IActionResult> Update(Guid Id, [FromBody] PostProductDTO updateProduct)
